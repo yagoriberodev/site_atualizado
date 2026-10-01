@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, "Segoe UI", Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* barra vermelha do topo (usada na Home e nos dashboards) */
+.topo {
+  background: #ff4747;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.topo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.topo nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.topo a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.topo a:hover {
+  text-decoration: underline;
+}
